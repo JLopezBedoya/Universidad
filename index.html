@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador en GitHub</title>
+    <script src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Buscador De Perfiles en GitHub</h1>
+    </header>
+
+    <article id="busqueda">
+        <section id="buscador">
+            <h2 id="subtitle">Nombre del usuario</h2>
+            <input type="text" id="username" placeholder="JLopezBedoya">
+            <img onclick="buscar()" id="searchbutton" src="search.png"/>
+        </section>
+
+        <section id="usuario">
+            <img id="user_avatar" alt="" >
+            <p class="tag" id="user_login"></p>
+            <p class="tag" id="user_id"></p>
+            <p class="tag" id="user_name"></p>
+            <p class="tag" id="user_location"></p>
+            <p class="tag" id="user_twitter"></p>
+            <p class="tag" id="user_blog"></p>
+            <p class="tag" id="user_created"></p>
+            <p class="tag" id="user_repos"></p>
+            <p class="tag" id="user_frs"></p>
+            <p class="tag" id="user_fng"></p>
+            <div id="estado" class="start" >ESCRIBA EL NOMBRE DE USUARIO AL CUAL BUSCAR</div>
+        </section>
+    </article>
+    <footer>
+
+    </footer>
+</body>
+</html>
