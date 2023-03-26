@@ -2,7 +2,7 @@ print("CINE RANDOM")
 while(True):
     tipo = input("Salas: \nDinamix - 18800 \n3D - 15500 \n2D - 11500 \nCual es su tipo de sala?: ").lower()
     if tipo != "dinamix" and tipo != "2d" and tipo != "3d":
-        print("Por favor lija las opciones dadas (dinamix, 2d, 3d)")
+        print("Por favor elija una de las opciones dadas (dinamix, 2d, 3d)")
         continue
     cantidad = int(input("Cuantas entradas desea comprar?: "))
     card = input("Pagara con la tarjeta del cine?(S/N): ").lower()
